@@ -1,0 +1,9 @@
+/*Abaixo três insruçõespara setup do tailwind */
+/*São os três conjuntos de estilização que serão usados no projeto*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-900 text-zinc-100;
+}
